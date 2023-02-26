@@ -1,0 +1,65 @@
+$Secondary : #26253a;
+$PrimaryAuthColor : #272c31;
+//$PrimaryAuthColor : #6d9ac4;
+$buttonColorAuth: #EE5784;
+
+.main{
+  // background-image: url("https://cdn.hswstatic.com/gif/lantern-festival.jpg");
+  // background-image: url("https://img.freepik.com/free-vector/realistic-luxury-background_23-2149326193.jpg");
+  // background-image: url("https://i.cbc.ca/1.2828970.1499459154!/cpImage/httpImage/philippines-typhoon-haiyan-anniversary.jpg");
+   background-image: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxpdmV8ZW58MHx8MHx8&w=1000&q=80");
+   height :"100vh"
+}
+.pss{
+   padding-left: 100px;
+   margin-left: 300px;
+}
+.about{
+   background-image: url("https://static.vecteezy.com/system/resources/previews/001/987/748/original/abstract-template-blue-geometric-diagonal-overlap-layer-on-dark-blue-background-free-vector.jpg");
+};
+
+
+.bold{
+   font-weight: bolder;
+}
+.foont{
+   font-size: larger ;
+   font-weight: lighter;
+}
+
+.auth{
+   background-color: $PrimaryAuthColor;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding:60px 0;
+   button{
+       background-color: $Secondary;
+       
+   }
+}
+
+
+
+
+
+// $primaryColorAuth: #414833;
+// $buttonColorAuth: #ee5784;
+// .auth {
+//   background-color: $primaryColorAuth;
+//   min-height: 100vh;
+//   padding: 60px 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+  // button {
+  //   background-color: $buttonColorAuth;
+  //   color: white;
+  // &:hover {
+  //   color: white !important;
+  // }
+  //   &:focus {
+  //     color: white !important;
+  //   }
+  // }}
